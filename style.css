@@ -1,0 +1,92 @@
+@charset "utf-8";
+
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body , html {
+    background-color: antiquewhite;
+    padding: 10px;
+}
+
+header  h1 {
+    text-align: center;
+    padding: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: antiquewhite;
+    font-size: 25px;
+    font-weight: bold;
+    margin: auto;
+}
+
+i#burguer {
+    width: 70px;
+    border-radius: 50%;
+    margin: auto;
+    background-color: none;
+    color: black;
+    display: block;
+    text-align: center;
+    padding: 10px;
+    cursor: pointer;
+}
+
+i#burguer:hover {
+    background-color: none;
+    color: black;
+
+}
+
+ menu {
+    background-color: antiquewhite;
+    display: none;
+}
+
+menu > ul {
+    list-style-type: none;
+}
+
+menu > ul > li > a {
+    display: block;
+    padding: 10px;
+    text-decoration: none;
+    background-color: rgb(68, 68, 68);
+    color: white;
+    text-align: center;
+    border-top: 2px solid gray;
+} 
+
+menu > ul > li > a:hover {
+    background-color: gray;
+}
+
+main {
+    width: 90vw;
+    background-color: white;
+    padding: 10px;
+    margin-top: 10px;
+    border-radius: 10px;
+}
+
+article {
+    text-indent: 20px;
+    font-size: 18px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+article h2 {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    padding: 10px;
+    text-align: center;
+    margin: auto;
+
+}
+
+article > p{
+    text-align: justify;
+    margin-bottom: 10px;
+}

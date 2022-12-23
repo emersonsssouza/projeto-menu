@@ -1,0 +1,39 @@
+@charset "utf-8";
+
+/*Tela de smartphone*/
+
+@media screen and (min-width:360px) and (max-width: 767px) {
+
+    main {
+       margin: auto;
+       width: 410px;
+    }    
+}
+
+/*Tela Tablet */
+@media screen and (Min-width: 768px) and (max-width:1024px) {
+    main {
+        margin: auto;
+        width: 700px;
+    }
+}
+
+/*Tela Desktop*/
+@media screen and (min-width: 1025px) and (max-width: 1919px)  {
+
+    main {
+        margin: auto;
+        width: 800px;
+    }
+    
+}
+
+/* Grandes Telas */
+
+@media screen and (min-width: 1920px) {
+    main{
+        margin: auto;
+        width: 900px;
+    }
+    
+}
